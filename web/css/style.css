@@ -1,0 +1,32 @@
+.navbar {
+	min-height: 60px;
+}
+.breadcrumb {
+	margin-top: 20px !important;
+}
+.container {
+	padding: 8px 0px;
+}
+.navbar-brand {
+	padding: 0px 0px 0px 10px !important;
+}
+.navbar-inverse .navbar-nav li a{
+	color: white;
+	text-transform: uppercase;
+    border: 1px solid #222;
+}
+.navbar-inverse .navbar-nav li {
+	margin: 0px 5px;
+}
+.navbar-inverse .navbar-nav li a:hover {
+	border: 1px solid #FECE1A;
+	transition: border-color 1s ease;
+}
+.navbar-inverse .navbar-nav li.active {
+	border: 1px solid #FECE1A;
+	color: red !important;
+	transition: border-color 1s ease;
+}
+.navbar-inverse .navbar-nav li.active > a {
+	background-color: transparent !important;
+}
